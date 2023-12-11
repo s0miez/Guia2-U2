@@ -3,7 +3,6 @@ use std::io::{self, BufRead};
 use std::path::Path;
 use std::u32;
 use std::fs::File;
-
 mod utiles;
 
 fn leer_lineas<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
